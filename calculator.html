@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset id="container">
+            <form name="calculator">
+
+                <input id="display" type="text" name="display" readonly>
+                <div class ="firstRow">
+                    <input class="button7" type="button" value="" onclick="calculator.display.value += '7'">
+
+                    <input class="button8" type="button" value="" onclick="calculator.display.value += '8'">
+
+                    <input class="button9" type="button" value="" onclick="calculator.display.value += '9'">
+
+                    <input class="addButton" type="button" value="" onclick="calculator.display.value += ' + '">
+                </div>
+                <br>
+                <div class ="secondRow">
+                    <input class="button4" type="button" value="" onclick="calculator.display.value += '4'">
+
+                    <input class="button5" type="button" value="" onclick="calculator.display.value += '5'">
+
+                    <input class="button6" type="button" value="" onclick="calculator.display.value += '6'">
+
+                    <input class="subButton" type="button" value="" onclick="calculator.display.value += ' - '">
+                </div>
+                <br>
+                <div class ="thirdRow">
+                    <input class="button1" type="button" value="" onclick="calculator.display.value += '1'">
+
+                    <input class="button2" type="button" value="" onclick="calculator.display.value += '2'">
+
+                    <input class="button3" type="button" value="" onclick="calculator.display.value += '3'">
+
+                    <input class="multButton" type="button" value="" onclick="calculator.display.value += ' * '">
+                </div>
+                <br>
+                <div class ="fourthRow">
+                    <input class="clearButton" type="button" value="" onclick="calculator.display.value = ''">
+
+                    <input class="button0" type="button" value="" onclick="calculator.display.value += '0'">
+
+                    <input class="equalButton" type="button" value="" onclick="calculator.display.value = eval(calculator.display.value)">
+
+                    <input class="divideButton" type="button" value="" onclick="calculator.display.value += ' / '">
+                <br>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
