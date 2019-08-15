@@ -1,0 +1,238 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+    .container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    align-items:flex-start;
+}
+
+.firstRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secondRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thirdRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.fourthRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#container {
+    display: flex;
+    width: auto;
+    padding: 8px auto;
+    margin: 20px auto;
+    border-radius: 4px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+#display {
+    display: flex;
+    margin: 15px auto;
+    height: 42px;
+    width: 200px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    font-size: 28px;
+    color: red;
+    text-align: right;
+    font-weight: 300;
+}
+
+.button1 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num1.png') center center;
+    background-size: 40px;
+}
+
+.button2 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num2.png') center center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.button3 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num3.png') center center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.button4 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num4.jpg') center center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.button5 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num5.png') center center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.button6 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num6.png') center center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.button7 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num7.png') center center;
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.button8 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num8.png') center center;
+    background-size: 28px;
+    background-repeat: no-repeat;
+
+}
+
+.button9 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num9.png') center center;
+    background-size: 38px;
+    background-repeat: no-repeat;
+}
+
+.button0 {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../num0.png') center center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.addButton {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 40px;
+    border-color: red;
+    background: url('../plus.png') center center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.subButton {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 40px;
+    border-color: red;
+    background: url('../sub.svg') center center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.multButton {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 40px;
+    border-color: red;
+    background: url('../mult.png') center center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.clearButton {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: url('../clear.png') center center;
+    background-size: 28px;
+    background-repeat: no-repeat;
+}
+
+.equalButton {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 40px;
+    border-color: red;
+    background: url('../equal.png') center center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.divideButton {
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 40px;
+    border-color: red;
+    background: url('../divide.png') center center;
+    background-size: 28px;
+    background-repeat: no-repeat;
+}
